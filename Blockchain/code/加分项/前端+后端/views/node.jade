@@ -1,0 +1,40 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend 节点管理
+            label(for='nodeform') 新增节点
+            form(id='nodeform' method='post')
+                div
+                    div.username
+                    label(for='username') 用户
+                    input(id='username', name='username', value='node.username')
+                    span.error
+
+                div
+                    div.password
+                    label(for='password') 密码
+                    input(id='password', name='password', value='node.password', type='password')
+                    div.eye.one
+                    span.error
+
+                div.re-wrapper
+                    div.repeatpassword
+                    label(for='repeatpassword') 确认密码
+                    input(id='repeatpassword', name='repeatpassword', value='node.repeatpassword', type='password')
+                    div.eye.two
+                    span.error
+
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')
+                  
+            label(for='userlist') 节点列表
+            div(id='userlist')
+                ul
+                    - each obj in list
+                        li 节点ID
+                            span #{obj._id}
+                        li 节点名
+                            span #{obj.nodename}

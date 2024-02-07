@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend 智能合约管理
+            form(action='/addAmount' method='GET')
+                input(type='submit' value='addAmount')
+            form(action='/getAmount' method='GET')
+                input(type='submit' value='getAmount')
+            form(action='/addOrganization' method='GET')
+                input(type='submit' value='addOrganization')
+            form(action='/transfer' method='GET')
+                input(type='submit' value='transfer')
+            form(action='/finance' method='GET')
+                input(type='submit' value='finance')
+            form(action='/payback' method='GET')
+                input(type='submit' value='payback')
+            form(action='/signature' method='GET')
+                input(type='submit' value='signature')

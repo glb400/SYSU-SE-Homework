@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend payback
+            label(for='params') params
+            form(id='params' method='post')
+                div
+                    div.user
+                    label(for='user') user
+                    input(id='user', name='user', value='user')
+                    span.error
+
+                div
+                    div.debtor
+                    label(for='debtor') debtor
+                    input(id='debtor', name='debtor', value='0x0')
+                    span.error
+
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')

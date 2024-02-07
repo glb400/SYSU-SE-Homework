@@ -1,0 +1,28 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sim_1/new/ts.v,1544693015,verilog,,,,ts,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ADR.v,1544693162,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ALU.v,,ADR,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ALU.v,1544692230,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ALUoutDR.v,,ALU,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ALUoutDR.v,1544692237,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/BDR.v,,ALUoutDR,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/AvoidShake.v,1544692214,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/BDR.v,,AvoidShake,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/BDR.v,1544692245,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ControlUnit.v,,BDR,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/CLK_divider.v,1544692185,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ControlUnit.v,,CLK_divider,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/ControlUnit.v,1544692254,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DBDR.v,,ControlUnit,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DBDR.v,1544692288,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DBDRSelector.v,,DBDR,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DBDRSelector.v,1544692296,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DataMEM.v,,DBDRSelector,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/DataMEM.v,1544692304,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Display.v,,DataMEM,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Display.v,1544692281,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Extend.v,,Display,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Display_CPU.v,1544692143,verilog,,,,Display_CPU,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Extend.v,1544692273,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/InsMEM.v,,Extend,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/InsMEM.v,1544692265,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/PC.v,,InsMEM,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/PC.v,1544692223,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/PC4.v,,PC,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/PC4.v,1544692311,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/RegisterFile.v,,PC4,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/RegisterFile.v,1544692551,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/WriteDataSelector.v,,RegisterFile,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/SegLED.v,1544692203,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Show.v,,SegLED,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/Show.v,1544692193,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/WriteDataSelector.v,,Show,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/WriteDataSelector.v,1544692319,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/WriteRegSelector.v,,WriteDataSelector,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/WriteRegSelector.v,1544692326,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/main.v,,WriteRegSelector,,,,,,,,
+C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sources_1/new/main.v,1544692160,verilog,,C:/Users/YURAN GU/Desktop/MultipleCPU/MultipleCPU.srcs/sim_1/new/ts.v,,main,,,,,,,,

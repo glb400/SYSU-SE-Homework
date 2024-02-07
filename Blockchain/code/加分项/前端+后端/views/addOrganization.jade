@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend addOrganization
+            label(for='params') params
+            form(id='params' method='post')
+                div
+                    div.user
+                    label(for='user') user
+                    input(id='user', name='user', value='user')
+                    span.error
+
+                div
+                    div.creditLevel
+                    label(for='creditLevel') creditLevel
+                    input(id='creditLevel', name='creditLevel', value='3')
+                    span.error
+
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')

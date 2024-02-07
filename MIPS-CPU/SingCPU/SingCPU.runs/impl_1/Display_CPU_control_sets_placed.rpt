@@ -1,0 +1,136 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri Nov 16 22:14:31 2018
+| Host         : LAPTOP-H3O5FJQC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Display_CPU_control_sets_placed.rpt
+| Design       : Display_CPU
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    68 |
+| Unused register locations in slices containing registers |    19 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      3 |            1 |
+|      6 |            1 |
+|      8 |           61 |
+|     13 |            1 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              41 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              39 |            9 |
+| Yes          | No                    | No                     |             488 |          248 |
+| Yes          | No                    | Yes                    |              13 |            6 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+--------------------------------+-----------------------+------------------+----------------+
+|   Clock Signal  |          Enable Signal         |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++-----------------+--------------------------------+-----------------------+------------------+----------------+
+|  divider/out[1] |                                |                       |                2 |              3 |
+|  divider/out[0] |                                |                       |                5 |              6 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[8][7][0]    |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[57][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[52][7]_0[0] |                       |                6 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[9][7][0]    |                       |                2 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[0][7][0]    |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[10][7]_5[0] |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[14][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[16][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[18][7]_0[0] |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[11][0][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[17][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[13][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[12][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[15][0][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[29][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[2][7][0]    |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[21][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[27][0][0]   |                       |                7 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[20][7]_1[0] |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[28][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[23][0][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[25][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[1][7]_0[0]  |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[22][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[24][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[19][0][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[26][7][0]   |                       |                2 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[34][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[33][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[31][0][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[36][7][0]   |                       |                8 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[30][7][0]   |                       |                2 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[38][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[37][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[35][0][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[32][7]_7[0] |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[42][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[49][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[39][0][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[41][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[43][0][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[48][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[4][7][0]    |                       |                7 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[44][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[45][7][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[47][0][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[50][7][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[3][0][0]    |                       |                6 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[46][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[51][0][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[40][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[60][7][0]   |                       |                2 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[58][7]_0[0] |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[59][0][0]   |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[55][0][0]   |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[54][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[56][7][0]   |                       |                5 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[5][7][0]    |                       |                3 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[6][7][0]    |                       |                2 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[7][0][0]    |                       |                4 |              8 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[53][7][0]   |                       |                7 |              8 |
+|  clk_BUFG       | uut/pc/curPC[7]_i_1_n_0        | divider/fifo_reg[0]_0 |                6 |             13 |
+|  mclk_IBUF_BUFG |                                | divider/fifo_reg[0]_0 |                5 |             19 |
+|  divider/out[1] |                                | as/change             |                4 |             20 |
+|  cu/RD1__0      |                                |                       |               18 |             32 |
+| ~clk_BUFG       | uut/pc/DataMem_reg[17][1]      |                       |               12 |             96 |
++-----------------+--------------------------------+-----------------------+------------------+----------------+
+
+

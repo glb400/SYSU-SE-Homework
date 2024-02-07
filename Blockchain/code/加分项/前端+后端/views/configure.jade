@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend 配置管理
+            label(for='configureform') 配置count/gas
+            form(id='configureform' method='post')
+                div
+                    div.tx_count_limit
+                    label(for='tx_count_limit') tx_count_limit
+                    input(id='tx_count_limit', name='tx_count_limit', value='config.tx_count_limit')
+                    span.error
+                
+                div
+                    div.tx_gas_limit
+                    label(for='tx_gas_limit') tx_gas_limit
+                    input(id='tx_gas_limit', name='tx_gas_limit', value='config.tx_gas_limit')
+                    span.error
+
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Nov 16 22:03:24 2018
+# Process ID: 17120
+# Current directory: C:/Users/YURAN GU/Desktop/SingCPU/SingCPU.runs/impl_1
+# Command line: vivado.exe -log Display_CPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Display_CPU.tcl -notrace
+# Log file: C:/Users/YURAN GU/Desktop/SingCPU/SingCPU.runs/impl_1/Display_CPU.vdi
+# Journal file: C:/Users/YURAN GU/Desktop/SingCPU/SingCPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Display_CPU.tcl -notrace

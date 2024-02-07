@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/detail.css')
+  fieldset
+    legend 用户界面
+      form(action='/user' method='GET')
+        input(type='submit' value='用户管理')
+      form(action='/node' method='GET')
+        input(type='submit' value='节点管理')
+      form(action='/contract' method='GET')
+        input(type='submit' value='智能合约管理')
+      form(action='/transaction' method='GET')
+        input(type='submit' value='交易管理')
+      form(action='/configure' method='GET')
+        input(type='submit' value='配置管理')
+      form(action='/signout' method='GET')
+        input(type='submit' value='登出')

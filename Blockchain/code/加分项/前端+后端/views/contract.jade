@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/detail.css')
+    script(type='text/javascript' src='javascripts/signin.js')
+    fieldset
+        legend 智能合约管理
+            form(action='/sendtransac' method='GET')
+                input.button.submit(type='submit' value='发送交易')
+
+            label(for='deployform') 合约部署
+            form(id='deployform' method='post')
+                div
+                    div.contractname
+                    label(for='contractname') 合约名
+                    input(id='contractname', name='contractname', value='deploy.contractname')
+                    span.error
+                
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')

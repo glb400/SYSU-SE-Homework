@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Nov 19 19:29:02 2018
+# Process ID: 8424
+# Current directory: C:/Users/YURAN GU/Desktop/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18468 C:\Users\YURAN GU\Desktop\SCPU\SCPU.xpr
+# Log file: C:/Users/YURAN GU/Desktop/SCPU/vivado.log
+# Journal file: C:/Users/YURAN GU/Desktop/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/YURAN GU/Desktop/SCPU/SCPU.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim

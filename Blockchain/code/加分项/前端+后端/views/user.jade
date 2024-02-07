@@ -1,0 +1,46 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/normal.css')
+    fieldset
+        legend 用户管理（数据库用户）
+            label(for='userform') 新增用户
+            form(id='userform' method='post')
+                div
+                    div.username
+                    label(for='username') 用户
+                    input(id='username', name='username', value='user.username')
+                    span.error
+
+                div
+                    div.password
+                    label(for='password') 密码
+                    input(id='password', name='password', value='user.password', type='password')
+                    div.eye.one
+                    span.error
+
+                div.re-wrapper
+                    div.repeatpassword
+                    label(for='repeatpassword') 确认密码
+                    input(id='repeatpassword', name='repeatpassword', value='user.repeatpassword', type='password')
+                    div.eye.two
+                    span.error
+
+                div
+                    div.publickey
+                    label(for='publickey') 公钥
+                    input(id='publickey', name='publickey', value='user.publickey', type='text')
+                    span.error
+
+                div.buttons
+                    input.button.reset(type='button', value='清除')
+                    input.button.submit(type='submit', value='提交')
+            
+            label(for='userlist') 用户列表
+            div(id='userlist')
+                ul
+                    - each obj in list
+                        li 用户publickey
+                            span #{obj.publickey}
+                        li 用户名
+                            span #{obj.username}

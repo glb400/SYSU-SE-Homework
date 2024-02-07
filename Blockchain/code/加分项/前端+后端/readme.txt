@@ -1,0 +1,3 @@
+使用nodejs
+express-generate搭建简单应用
+后端使用mongodb数据库管理
